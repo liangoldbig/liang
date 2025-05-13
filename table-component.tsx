@@ -50,7 +50,7 @@ export default function TableComponent() {
           {data.map((user) => (
             <TableRow key={user.id}>
               <TableCell className="font-medium">{user.id}</TableCell>
-              <TableCell>{user.name}</TableCell>
+              <TableCell>1</TableCell>
               <TableCell>{user.email}</TableCell>
               <TableCell className="text-right">
                 <span
